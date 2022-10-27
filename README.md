@@ -24,3 +24,4 @@ To run your tests
 
 - [README for reverseArray](./reverseArray/README.md)
 - [README for insertShiftArray](./insertShiftArray/README.md)
+- [README for binarySearch](./binarySearch/README.md)
