@@ -14,6 +14,36 @@ public class LinkedListTest
     assertEquals(8,sut.head.value);
   }
 
+  @Test void testForInsertBefore()
+  {
+    LinkedList sut = new LinkedList();
+    sut.insert(10);
+    sut.insert(12);
+    sut.insert(14);
+    sut.insertBefore(12,99);
+    assertEquals(99, sut.head.next.value);
+  }
+
+  @Test void testForInsertAfter()
+  {
+    LinkedList sut = new LinkedList();
+    sut.insert(10);
+    sut.insert(12);
+    sut.insert(14);
+    sut.insertAfter(12,99);
+    assertEquals(99, sut.head.next.next.value);
+
+  }
+
+  @Test void testForAppend()
+  {
+    LinkedList sut = new LinkedList();
+    sut.append(10);
+    sut.append(99);
+    assertEquals(10, sut.head.value);
+
+  }
+
   @Test void testForIncludes()
   {
     LinkedList sut = new LinkedList();
