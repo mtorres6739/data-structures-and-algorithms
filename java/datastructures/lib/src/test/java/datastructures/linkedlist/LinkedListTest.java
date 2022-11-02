@@ -52,6 +52,19 @@ public class LinkedListTest
     assertFalse(sut.includes(8));
   }
 
+
+  @Test void testForValueFromEnd() {
+    LinkedList sut = new LinkedList();
+    sut.insert(10);
+    sut.insert(20);
+    sut.insert(30);
+    sut.insert(40);
+    sut.insert(50);
+    assertEquals(30, sut.valueFromEnd(3));
+  }
+
+
+
   @Test void testForToString()
   {
     LinkedList sut = new LinkedList();
