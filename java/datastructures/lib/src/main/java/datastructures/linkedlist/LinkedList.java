@@ -5,6 +5,7 @@ import java.util.StringJoiner;
 public class LinkedList
 {
   Node head;
+  private int size;
 
   public void insert(int value)
   {
@@ -82,6 +83,30 @@ public class LinkedList
       }
     }
     return false;
+  }
+
+
+
+  public int valueFromEnd(int k) {
+    Node current = head;
+    int listLength = 0;
+
+    while (current != null) {
+      listLength =+ 1;
+      current = current.next;
+    }
+    int steps = listLength - k;
+    if (steps < 0 || steps > listLength)
+      throw new IllegalArgumentException("List is not big enough for k");
+
+    current = head;
+    int counter = 0;
+
+    while (current != null && counter != steps) {
+      counter =+ 1;
+      current = current.next;
+    }
+    return current.value;
   }
 
   @Override
