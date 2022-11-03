@@ -35,3 +35,12 @@ Inserts a new node at the end of the list.
 Returns the value of the node that is k from the end of the list.
 
 ![Whiteboard for lab7](/java/datastructures/lib/src/main/java/assets/img/CodeChallenge7Whiteboard.png)
+
+## Code Challenge 8 - Zip two linked lists
+
+### zipLists
+
+Zips two linked lists together.
+
+![Whiteboard for lab8](/java/datastructures/lib/src/main/java/assets/CodeChallenge8Whiteboard.png)
+Made with Ben Lieberman, Joe Rutkin and Mathew Torres.

@@ -65,6 +65,26 @@ public class LinkedListTest
 
 
 
+  // Made with Ben Lieberman, Joe Rutkin and Mathew Torres for pair programming
+  @Test void testForLinkedListZip(){
+    LinkedList sut = new LinkedList();
+    sut.insert(10);
+    sut.insert(20);
+    sut.insert(30);
+    sut.insert(40);
+    sut.insert(50);
+
+    LinkedList sut1 = new LinkedList();
+    sut1.insert(10);
+    sut1.insert(20);
+    sut1.insert(30);
+    sut1.insert(40);
+    sut1.insert(50);
+
+    assertEquals("{50} -> {50} -> {40} -> {40} -> {30} -> {30} -> {20} -> {20} -> {10} -> {10} -> NULL", LinkedList.linkedListZip(sut, sut1).toString());
+
+  }
+
   @Test void testForToString()
   {
     LinkedList sut = new LinkedList();
