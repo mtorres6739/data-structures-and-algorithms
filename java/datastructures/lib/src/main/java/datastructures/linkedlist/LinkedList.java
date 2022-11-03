@@ -1,7 +1,5 @@
 package datastructures.linkedlist;
 
-import java.util.StringJoiner;
-
 public class LinkedList
 {
   Node head;
@@ -108,6 +106,31 @@ public class LinkedList
     }
     return current.value;
   }
+
+// Made with Ben Lieberman, Joe Rutkin and Mathew Torres for pair programming
+  public static LinkedList linkedListZip(LinkedList a, LinkedList b) {
+      Node i = a.head;
+      Node j = b.head;
+      Node tmpi = i.next;
+      Node tmpj = j.next;
+
+      while (tmpi != null || tmpj != null) {
+        i.next = j;
+        j.next = tmpi;
+
+        i = tmpi;
+        tmpi = tmpi.next;
+
+        j = tmpj;
+        tmpj = tmpj.next;
+      }
+      i.next = j;
+      j.next = null;
+      return a;
+  }
+
+
+
 
   @Override
   public String toString()
