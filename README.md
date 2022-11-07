@@ -26,5 +26,5 @@ To run your tests
 - [README for insertShiftArray](./insertShiftArray/README.md)
 - [README for binarySearch](./binarySearch/README.md)
 - [README for linkedList](java/datastructures/lib/src/main/java/datastructures/linkedlist/README.md)
-
+- [README for Stacks and Queues](java/datastructures/lib/src/main/java/datastructures/stacksandqueues/README.md)
 
