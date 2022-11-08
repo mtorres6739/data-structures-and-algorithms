@@ -42,4 +42,20 @@ Returns the value of the front node in the queue.
 
 Returns true if the queue is empty.
 
+## Code Challenge 11 - PseudoQueue
 
+### PseudoQueue - Methods Implemented
+
+Time complexity is O(n).
+
+#### enqueue()
+
+Adds a new node to the back of the queue.
+
+#### dequeue()
+
+Removes the front node from the queue.
+#### Attribution
+
+- Classmate Joe
+- [Github Sharina](https://github.com/SharinaS)
