@@ -27,4 +27,5 @@ To run your tests
 - [README for binarySearch](./binarySearch/README.md)
 - [README for linkedList](java/datastructures/lib/src/main/java/datastructures/linkedlist/README.md)
 - [README for Stacks and Queues](java/datastructures/lib/src/main/java/datastructures/stacksandqueues/README.md)
+- [README for Animal Shelter](java/datastructures/lib/src/main/java/datastructures/animalshelter/README.md)
 
