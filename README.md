@@ -29,4 +29,5 @@ To run your tests
 - [README for Stacks and Queues](java/datastructures/lib/src/main/java/datastructures/stacksandqueues/README.md)
 - [README for Animal Shelter](java/datastructures/lib/src/main/java/datastructures/animalshelter/README.md)
 - [README for Validate Brackets](java/datastructures/lib/src/main/java/datastructures/brackets/README.md)
+- [README for Binary Tree](java/datastructures/lib/src/main/java/datastructures/tree/README.md)
 
