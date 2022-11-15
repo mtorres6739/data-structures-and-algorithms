@@ -10,6 +10,7 @@ Create a class called `BinaryTree` that has a root property. Create  methods cal
 - `inOrder()`
 - `postOrder()`
 
+
 ```java
 public class BinaryTree<T> {
   // This is the instance variable
@@ -97,6 +98,36 @@ public class BinaryTree<T> {
   }
 ```
 
+- `maxValue()`
+
+```java
+// MAX
+
+  public int findMaxValue() {
+    if (this.root.value instanceof Integer) {
+      return preOrderMaxFind((Node<Integer>) this.root, Integer.MIN_VALUE);
+    } else {
+      throw new IllegalStateException();
+    }
+
+  }
+
+  private int preOrderMaxFind(Node <Integer> current, int highest) {
+      if (current == null) {
+      return highest;
+      }
+      if (current.value > highest) {
+        highest = current.value;
+      }
+      if (current.left != null) {
+        highest = preOrderMaxFind(current.left, highest);
+      }
+      if (current.right != null) {
+        highest = preOrderMaxFind(current.right, highest);
+      }
+      return highest;
+    }
+```
 
 ### Binary Search Tree - Methods Implemented
 
