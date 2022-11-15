@@ -89,4 +89,34 @@ public class BinaryTree<T> {
   }
 
 
-}
+  // MAX
+
+  public int findMaxValue() {
+    if (this.root.value instanceof Integer) {
+      return preOrderMaxFind((Node<Integer>) this.root, Integer.MIN_VALUE);
+    } else {
+      throw new IllegalStateException();
+    }
+
+  }
+
+  private int preOrderMaxFind(Node <Integer> current, int highest) {
+      if (current == null) {
+      return highest;
+      }
+      if (current.value > highest) {
+        highest = current.value;
+      }
+      if (current.left != null) {
+        highest = preOrderMaxFind(current.left, highest);
+      }
+      if (current.right != null) {
+        highest = preOrderMaxFind(current.right, highest);
+      }
+      return highest;
+    }
+
+
+  }
+
+
