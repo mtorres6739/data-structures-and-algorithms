@@ -129,6 +129,45 @@ public class BinaryTree<T> {
     }
 ```
 
+- `breadthFirst()`
+
+```java
+  // BREADTH FIRST
+
+  public List<T> breadthFirstWrapper() {
+    return breadthFirstTraverse(this.root);
+  }
+
+  public List<T> breadthFirstTraverse (Node<T> root) {
+    Queue<Node<T>> storeQ = new LinkedList<>();
+    List<T> result = new LinkedList<>();
+
+    if (root == null) {
+      throw new NoSuchElementException();
+    } else {
+      storeQ.add(root);
+    }
+
+    while (!storeQ.isEmpty()) {
+      Node<T> currentNode = storeQ.remove();
+      result.add(currentNode.value);
+
+      System.out.println("current result: " + result);
+      System.out.println("current queue: " + storeQ);
+      System.out.println("current node: " + currentNode.value);
+
+      if (currentNode != null && currentNode.left != null) {
+        storeQ.add(currentNode.left);
+      }
+
+      if (currentNode != null && currentNode.right != null) {
+        storeQ.add(currentNode.right);
+      }
+    }
+    return result;
+  }
+```
+
 ### Binary Search Tree - Methods Implemented
 
 
