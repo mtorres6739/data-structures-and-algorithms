@@ -31,4 +31,5 @@ To run your tests
 - [README for Validate Brackets](java/datastructures/lib/src/main/java/datastructures/brackets/README.md)
 - [README for Binary Tree](java/datastructures/lib/src/main/java/datastructures/tree/README.md)
 - [README for FizzBuzz Tree](java/datastructures/lib/src/main/java/datastructures/fizzbuzztree/README.md)
+- [README for Sorting](/sorting/README.md)
 
