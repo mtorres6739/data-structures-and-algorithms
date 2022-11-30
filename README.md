@@ -32,4 +32,4 @@ To run your tests
 - [README for Binary Tree](java/datastructures/lib/src/main/java/datastructures/tree/README.md)
 - [README for FizzBuzz Tree](java/datastructures/lib/src/main/java/datastructures/fizzbuzztree/README.md)
 - [README for Sorting](/sorting/README.md)
-
+- [README for Hash Tables](java/datastructures/lib/src/main/java/datastructures/hashtable/README.md)
