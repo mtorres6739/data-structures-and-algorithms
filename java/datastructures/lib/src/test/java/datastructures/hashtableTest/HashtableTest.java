@@ -23,7 +23,7 @@ public class HashtableTest {
   @Test
   public void testForAdd() {
     assertTrue("Expected true",
-      testHashtable.add("key3", "value 3")
+      testHashtable.add("key3", "value3")
     );
   }
 
