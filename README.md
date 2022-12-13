@@ -33,3 +33,4 @@ To run your tests
 - [README for FizzBuzz Tree](java/datastructures/lib/src/main/java/datastructures/fizzbuzztree)
 - [README for Sorting](/sorting/README.md)
 - [README for Hash Tables](java/datastructures/lib/src/main/java/datastructures/hashtable)
+- [README for Graphs](java/datastructures/lib/src/main/java/datastructures/graph)
