@@ -5,8 +5,9 @@ public class Node <T> {
   public Node <T> left;
   public Node <T> right;
   public T value;
+  public Node<T> next;
 
-  public Node() {};
+    public Node() {};
 
   // This is the constructor
   public Node(T value) {
