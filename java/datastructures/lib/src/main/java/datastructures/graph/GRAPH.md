@@ -83,6 +83,7 @@ public class Graph<T> {
   public int graphSize() {
     return this.nodesInGraph.size();
   }
+}
 
 ```
 
