@@ -78,7 +78,7 @@ public class RemoveDuplicatesTest {
 
 ## Whiteboard
 
-![Whiteboard](./assets/whiteboardExamRemoveDuplicates.jpg)
+![Whiteboard](/java/datastructures/lib/src/main/java/assets/img/WhiteboardExamRemoveDuplicates.png)
 
 ## Solution
 
