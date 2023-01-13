@@ -34,3 +34,4 @@ To run your tests
 - [README for Sorting](/sorting/README.md)
 - [README for Hash Tables](java/datastructures/lib/src/main/java/datastructures/hashtable)
 - [README for Graphs](java/datastructures/lib/src/main/java/datastructures/graph)
+- [README for Whiteboard Exam Code - RemoveDuplicates](/java/datastructures/lib/src/main/java/whiteboard/removeDuplicates/README.md)
